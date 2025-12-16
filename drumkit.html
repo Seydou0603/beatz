@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumkits - CHEICK TRAP BEATZ</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">CHEICK TRAP BEATZ</a>
+
+      <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="hamburger"></span>
+      </button>
+
+       <ul class="nav-menu" id="nav-menu">
+        <li><a href="prods.html">Mes Instrumentales</a></li>
+        <li><a href="drumkit.html">Mes Drumkits</a></li>
+        <li><a href="realisation.html">Mes Réalisations</a></li>
+        <li><a href="about.html">À propos</a></li>
+      </ul>
+  </nav>
+
+  <main>
+    <section class="prods-section">
+      <div class="container">
+        <h1 class="section-title">Drumkits à vendre</h1>
+        <p class="section-subtitle">Kits de batterie, one-shots et percussions, prêts à être utilisés dans vos productions.</p>
+
+        <div class="prod-controls">
+          <label for="category-filter">Trier par catégorie</label>
+          <select id="category-filter">
+            <option value="all">Toutes catégories</option>
+            <option value="kits">Kits complets</option>
+            <option value="oneshots">One-shots</option>
+            <option value="percs">Percussions</option>
+            <option value="loops">Loops</option>
+          </select>
+        </div>
+
+        <div class="prods-grid">
+          <!-- Drumkit 1 -->
+          <div class="prod-card" data-category="kits" data-price="19.99" data-project-price="19.99">
+            <div class="prod-image">
+              <img src="assets/img/11.webp" alt="Drumkit Vintage">
+              <div class="prod-overlay">
+                <button class="btn-play" aria-label="Écouter"><i class="fas fa-play"></i></button>
+              </div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Kits Complets</span>
+              <h3 class="prod-title">Drumkit Vintage</h3>
+              <p class="prod-description">Un kit complet inspiré des sons vintage, kicks, snares, hats et textures.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="prods.html" class="btn btn-buy"><i class="fas fa-shopping-cart"></i> Acheter</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Drumkit 2 -->
+          <div class="prod-card" data-category="oneshots" data-price="9.99" data-project-price="9.99">
+            <div class="prod-image">
+              <img src="assets/img/22.webp" alt="One-Shot Pack">
+              <div class="prod-overlay"><button class="btn-play" aria-label="Écouter"><i class="fas fa-play"></i></button></div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">One-Shots</span>
+              <h3 class="prod-title">One-Shot Pack Vol.1</h3>
+              <p class="prod-description">Collection de kicks et snares percutants pour trap & hip-hop.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="prods.html" class="btn btn-buy"><i class="fas fa-shopping-cart"></i> Acheter</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Drumkit 3 -->
+          <div class="prod-card" data-category="percs" data-price="12.99" data-project-price="12.99">
+            <div class="prod-image">
+              <img src="assets/img//33.webp" alt="Percussions Exotiques">
+              <div class="prod-overlay"><button class="btn-play" aria-label="Écouter"><i class="fas fa-play"></i></button></div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Percussions</span>
+              <h3 class="prod-title">Percussions Exotiques</h3>
+              <p class="prod-description">Loops et percussions organiques pour colorer vos beats.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="prods.html" class="btn btn-buy"><i class="fas fa-shopping-cart"></i> Acheter</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Drumkit 4 -->
+          <div class="prod-card" data-category="loops" data-price="14.99" data-project-price="14.99">
+            <div class="prod-image">
+              <img src="assets/img/44.jpg" alt="Loops Groovy">
+              <div class="prod-overlay"><button class="btn-play" aria-label="Écouter"><i class="fas fa-play"></i></button></div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Loops</span>
+              <h3 class="prod-title">Groovy Loops</h3>
+              <p class="prod-description">Loops rythmés prêts à l'emploi pour donner du groove à vos pistes.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="prods.html" class="btn btn-buy"><i class="fas fa-shopping-cart"></i> Acheter</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Drumkit 5 -->
+          <div class="prod-card" data-category="kits" data-price="24.99" data-project-price="24.99">
+            <div class="prod-image">
+              <img src="assets/img/55.jpg" alt="Ultimate Kit">
+              <div class="prod-overlay"><button class="btn-play" aria-label="Écouter"><i class="fas fa-play"></i></button></div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Kits Complets</span>
+              <h3 class="prod-title">Ultimate Drum Kit</h3>
+              <p class="prod-description">Le kit ultime avec des sons modernes et puissants.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="prods.html" class="btn btn-buy"><i class="fas fa-shopping-cart"></i> Acheter</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Drumkit 6 -->
+          <div class="prod-card" data-category="oneshots" data-price="7.99" data-project-price="7.99">
+            <div class="prod-image">
+              <img src="assets/img/66.webp" alt="One-Shot Vintage">
+              <div class="prod-overlay"><button class="btn-play" aria-label="Écouter"><i class="fas fa-play"></i></button></div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">One-Shots</span>
+              <h3 class="prod-title">Vintage One-Shots</h3>
+              <p class="prod-description">Samples courts et percutants pour un rendu vintage.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="prods.html" class="btn btn-buy"><i class="fas fa-shopping-cart"></i> Acheter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Purchase modal intentionally omitted on this page; use Prods page to complete purchases -->
+  <div class="modal" id="purchase-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" data-stop>
+        <button class="modal-close" aria-label="Fermer" data-close>&times;</button>
+        <h2 id="modal-title">Acheter</h2>
+        <div class="modal-body">
+          <p class="modal-product"><strong id="modal-product-title">Titre</strong> — <span id="modal-product-category">Catégorie</span></p>
+
+          <div class="modal-options">
+            <label><input type="radio" name="buytype" value="copy" checked> Acheter une copie (<span id="modal-price-copy">0.00€</span>)</label>
+            <label><input type="radio" name="buytype" value="project"> Acheter le projet complet (<span id="modal-price-project">0.00€</span>)</label>
+          </div>
+
+          <div class="modal-payments">
+            <p>Moyens de paiement :</p>
+            <div class="payment-buttons">
+              <button class="pay-btn" data-method="orange"><img src="assets/ICONE/orange.png" alt="Orange" class="pay-icon"/> Orange Money</button>
+              <button class="pay-btn" data-method="wave"><img src="assets/ICONE/wave.png" alt="Wave" class="pay-icon"/> Wave</button>
+              <button class="pay-btn" data-method="card"><img src="assets/ICONE/Visa.webp" alt="Carte" class="pay-icon"/> Carte de crédit</button>
+            </div>
+            <!-- Payment detail forms (shown based on selected method) -->
+            <div id="payment-details">
+              <div class="pm-phone" data-for="orange wave" style="display:none">
+                <label for="country-code">Code pays</label>
+                <select id="country-code">
+                  <option value="+221">+221 (Sénégal)</option>
+                  <option value="+225">+225 (Côte d'Ivoire)</option>
+                  <option value="+223">+223 (Mali)</option>
+                  <option value="+226">+226 (Burkina Faso)</option>
+                  <option value="+227">+227 (Niger)</option>
+                  <option value="+224">+224 (Guinée)</option>
+                  <option value="+229">+229 (Bénin)</option>
+                  <option value="+228">+228 (Togo)</option>
+                  <option value="+237">+237 (Cameroun)</option>
+                  <option value="+243">+243 (République démocratique du Congo)</option>
+                  <option value="+242">+242 (République du Congo)</option>
+                  <option value="+241">+241 (Gabon)</option>
+                  <option value="+261">+261 (Madagascar)</option>
+                  <option value="+262">+262 (La Réunion)</option>
+                  <option value="+245">+245 (Guinée-Bissau)</option>
+                  <option value="+240">+240 (Guinée équatoriale)</option>
+                  <option value="+253">+253 (Djibouti)</option>
+                  <option value="+33">+33 (France)</option>
+                  <option value="+590">+590 (Guadeloupe)</option>
+                  <option value="+596">+596 (Martinique)</option>
+                  <option value="+1">+1 (USA)</option>
+                </select>
+                <label for="phone-number">Numéro de téléphone</label>
+                <input id="phone-number" type="tel" placeholder="712345678" />
+              </div>
+
+              <div class="pm-card" data-for="card" style="display:none">
+                <label for="card-name">Nom sur la carte</label>
+                <input id="card-name" type="text" placeholder="Nom complet" />
+                <label for="card-number">Numéro de carte</label>
+                <input id="card-number" type="text" inputmode="numeric" placeholder="4242 4242 4242 4242" />
+                <div class="card-row">
+                  <div>
+                    <label for="card-expiry">Expiry (MM/AA)</label>
+                    <input id="card-expiry" type="text" placeholder="06/26" />
+                  </div>
+                  <div>
+                    <label for="card-cvc">CVC</label>
+                    <input id="card-cvc" type="text" inputmode="numeric" placeholder="123" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-actions">
+            <button class="btn btn-secondary" data-close>Annuler</button>
+            <button class="btn btn-primary" id="modal-confirm">Payer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/script.js" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="copyright">&copy; <span id="year"></span> CHEICK TRAP BEATZ |Tous Droit Reservées</p>
+
+      <div class="social">
+        <a class="social-link youtube" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+        <a class="social-link soundcloud" href="https://soundcloud.com/" target="_blank" rel="noopener" aria-label="SoundCloud"><i class="fab fa-soundcloud" aria-hidden="true"></i></a>
+        <a class="social-link facebook" href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+        <a class="social-link tiktok" href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+        <a class="social-link instagram" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

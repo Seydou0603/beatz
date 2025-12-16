@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Prods - CHEICK TRAP BEATZ</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand"> CHEICK TRAP BEATZ</a>
+
+      <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="prods.html">Mes Instrumentales</a></li>
+        <li><a href="drumkit.html">Mes Drumkits</a></li>
+        <li><a href="realisation.html">Mes Réalisations</a></li>
+        <li><a href="about.html">À propos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="prods-section">
+      <div class="container">
+        <h1 class="section-title">Mes Instrumentales</h1>
+        <p class="section-subtitle">Découvrez mes meilleures instrumentales musicales</p>
+
+        <div class="prod-controls">
+          <label for="category-filter">Trier par catégorie</label>
+          <select id="category-filter">
+            <option value="all">Toutes catégories</option>
+            <option value="trap">Trap</option>
+            <option value="hiphop">Hip-Hop</option>
+            <option value="drill">Drill</option>
+            <option value="afrobeats">Afrobeats</option>
+            <option value="chill">Chill</option>
+          </select>
+        </div>
+
+        <div class="prods-grid">
+          <!-- Product Card 1 -->
+          <div class="prod-card" data-category="trap" data-price="29.99" data-project-price="199.99">
+            <div class="prod-image">
+              <img src="assets/img/1.jpg" alt="Trap Beat Vol.1">
+              <div class="prod-overlay">
+                <button class="btn-play" aria-label="Écouter">
+                  <i class="fas fa-play"></i>
+                </button>
+              </div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Trap</span>
+              <h3 class="prod-title">Trap Beat Vol.1</h3>
+              <p class="prod-description">Un beat trap énergique et percutant, parfait pour vos productions.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="#" class="btn btn-buy">
+                  <i class="fas fa-shopping-cart"></i> Acheter
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="prod-card" data-category="hiphop" data-price="24.99" data-project-price="169.99">
+            <div class="prod-image">
+              <img src="assets/img/2.avif" alt="Hip Hop Groove">
+              <div class="prod-overlay">
+                <button class="btn-play" aria-label="Écouter">
+                  <i class="fas fa-play"></i>
+                </button>
+              </div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Hip-Hop</span>
+              <h3 class="prod-title">Hip Hop Groove</h3>
+              <p class="prod-description">Un groove hip hop lisse avec des vibes chill et modernes.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="#" class="btn btn-buy">
+                  <i class="fas fa-shopping-cart"></i> Acheter
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div class="prod-card" data-category="drill" data-price="34.99" data-project-price="249.99">
+            <div class="prod-image">
+              <img src="assets/img/3.jpg" alt="Dark Drill">
+              <div class="prod-overlay">
+                <button class="btn-play" aria-label="Écouter">
+                  <i class="fas fa-play"></i>
+                </button>
+              </div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Drill</span>
+              <h3 class="prod-title">Dark Drill</h3>
+              <p class="prod-description">Un beat drill sombre et agressif pour les artistes hardcore.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="#" class="btn btn-buy">
+                  <i class="fas fa-shopping-cart"></i> Acheter
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 4 -->
+          <div class="prod-card" data-category="afrobeats" data-price="27.99" data-project-price="189.99">
+            <div class="prod-image">
+              <img src="assets/img/4.jpg" alt="Afro Vibes">
+              <div class="prod-overlay">
+                <button class="btn-play" aria-label="Écouter">
+                  <i class="fas fa-play"></i>
+                </button>
+              </div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Afrobeats</span>
+              <h3 class="prod-title">Afro Vibes</h3>
+              <p class="prod-description">Un beat afro dynamique et dansant avec des percussions vibrantes.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="#" class="btn btn-buy">
+                  <i class="fas fa-shopping-cart"></i> Acheter
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 5 -->
+          <div class="prod-card" data-category="chill" data-price="32.99" data-project-price="229.99">
+            <div class="prod-image">
+              <img src="assets/img/5.jpg" alt="Cloud Rap">
+              <div class="prod-overlay">
+                <button class="btn-play" aria-label="Écouter">
+                  <i class="fas fa-play"></i>
+                </button>
+              </div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Chill</span>
+              <h3 class="prod-title">Cloud Rap</h3>
+              <p class="prod-description">Un beat cloud rap atmosphérique et mélancolique.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="#" class="btn btn-buy">
+                  <i class="fas fa-shopping-cart"></i> Acheter
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 6 -->
+          <div class="prod-card" data-category="chill" data-price="26.99" data-project-price="169.99">
+            <div class="prod-image">
+              <img src="assets/img/6.jpg" alt="Boom Bap">
+              <div class="prod-overlay">
+                <button class="btn-play" aria-label="Écouter">
+                  <i class="fas fa-play"></i>
+                </button>
+              </div>
+            </div>
+            <div class="prod-content">
+              <span class="prod-category">Chill</span>
+              <h3 class="prod-title">Boom Bap</h3>
+              <p class="prod-description">Un beat boom bap classique avec des samples jazzy.</p>
+              <div class="prod-footer">
+                <span class="prod-price">5000 FCFA</span>
+                <a href="#" class="btn btn-buy">
+                  <i class="fas fa-shopping-cart"></i> Acheter
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Purchase modal -->
+  <div class="modal" id="purchase-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" data-stop>
+        <button class="modal-close" aria-label="Fermer" data-close>&times;</button>
+        <h2 id="modal-title">Acheter</h2>
+        <div class="modal-body">
+          <p class="modal-product"><strong id="modal-product-title">Titre</strong> — <span id="modal-product-category">Catégorie</span></p>
+
+          <div class="modal-options">
+            <label><input type="radio" name="buytype" value="copy" checked> Acheter une copie (<span id="modal-price-copy">0.00€</span>)</label>
+            <label><input type="radio" name="buytype" value="project"> Acheter le projet complet (<span id="modal-price-project">0.00€</span>)</label>
+          </div>
+
+          <div class="modal-payments">
+            <p>Moyens de paiement :</p>
+            <div class="payment-buttons">
+              <button class="pay-btn" data-method="orange"><img src="assets/ICONE/orange.png" alt="Orange" class="pay-icon"/> Orange Money</button>
+              <button class="pay-btn" data-method="wave"><img src="assets/ICONE/wave.png" alt="Wave" class="pay-icon"/> Wave</button>
+              <button class="pay-btn" data-method="card"><img src="assets/ICONE/Visa.webp" alt="Carte" class="pay-icon"/> Carte de crédit</button>
+            </div>
+            <!-- Payment detail forms (shown based on selected method) -->
+            <div id="payment-details">
+              <div class="pm-phone" data-for="orange wave" style="display:none">
+                <label for="country-code">Code pays</label>
+                <select id="country-code">
+                  <option value="+221">+221 (Sénégal)</option>
+                  <option value="+225">+225 (Côte d'Ivoire)</option>
+                  <option value="+223">+223 (Mali)</option>
+                  <option value="+226">+226 (Burkina Faso)</option>
+                  <option value="+227">+227 (Niger)</option>
+                  <option value="+224">+224 (Guinée)</option>
+                  <option value="+229">+229 (Bénin)</option>
+                  <option value="+228">+228 (Togo)</option>
+                  <option value="+237">+237 (Cameroun)</option>
+                  <option value="+243">+243 (République démocratique du Congo)</option>
+                  <option value="+242">+242 (République du Congo)</option>
+                  <option value="+241">+241 (Gabon)</option>
+                  <option value="+261">+261 (Madagascar)</option>
+                  <option value="+262">+262 (La Réunion)</option>
+                  <option value="+245">+245 (Guinée-Bissau)</option>
+                  <option value="+240">+240 (Guinée équatoriale)</option>
+                  <option value="+253">+253 (Djibouti)</option>
+                  <option value="+33">+33 (France)</option>
+                  <option value="+590">+590 (Guadeloupe)</option>
+                  <option value="+596">+596 (Martinique)</option>
+                  <option value="+1">+1 (USA)</option>
+                </select>
+                <label for="phone-number">Numéro de téléphone</label>
+                <input id="phone-number" type="tel" placeholder="712345678" />
+              </div>
+
+              <div class="pm-card" data-for="card" style="display:none">
+                <label for="card-name">Nom sur la carte</label>
+                <input id="card-name" type="text" placeholder="Nom complet" />
+                <label for="card-number">Numéro de carte</label>
+                <input id="card-number" type="text" inputmode="numeric" placeholder="4242 4242 4242 4242" />
+                <div class="card-row">
+                  <div>
+                    <label for="card-expiry">Expiry (MM/AA)</label>
+                    <input id="card-expiry" type="text" placeholder="06/26" />
+                  </div>
+                  <div>
+                    <label for="card-cvc">CVC</label>
+                    <input id="card-cvc" type="text" inputmode="numeric" placeholder="123" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-actions">
+            <button class="btn btn-secondary" data-close>Annuler</button>
+            <button class="btn btn-primary" id="modal-confirm">Payer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="assets/js/script.js" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="copyright">&copy; <span id="year"></span> CHEICK TRAP BEATZ |Tous Droit Reservées</p>
+
+      <div class="social">
+        <a class="social-link youtube" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">
+          <i class="fab fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a class="social-link soundcloud" href="https://soundcloud.com/" target="_blank" rel="noopener" aria-label="SoundCloud">
+          <i class="fab fa-soundcloud" aria-hidden="true"></i>
+        </a>
+        <a class="social-link facebook" href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a class="social-link tiktok" href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="TikTok">
+          <i class="fab fa-tiktok" aria-hidden="true"></i>
+        </a>
+        <a class="social-link instagram" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
